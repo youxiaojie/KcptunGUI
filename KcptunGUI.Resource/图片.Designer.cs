@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KcptunGUI {
+namespace KcptunGUI.Resource {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace KcptunGUI {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class AppResource {
+    public class 图片 {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal AppResource() {
+        internal 图片() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace KcptunGUI {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KcptunGUI.AppResource", typeof(AppResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KcptunGUI.Resource.图片", typeof(图片).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap nicon_connect_png {
+        public static System.Drawing.Bitmap png_32x32_connect_1 {
             get {
-                object obj = ResourceManager.GetObject("nicon_connect_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_32x32_connect_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap nicon_disconnect_png {
+        public static System.Drawing.Bitmap png_32x32_disconnect_1 {
             get {
-                object obj = ResourceManager.GetObject("nicon_disconnect_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_32x32_disconnect_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap null_signal0_png {
+        public static System.Drawing.Bitmap png_32x32_signal0_1 {
             get {
-                object obj = ResourceManager.GetObject("null_signal0_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_32x32_signal0_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap null_signal1_png {
+        public static System.Drawing.Bitmap png_32x32_signal1_1 {
             get {
-                object obj = ResourceManager.GetObject("null_signal1_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_32x32_signal1_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap null_signal2_png {
+        public static System.Drawing.Bitmap png_32x32_signal2_1 {
             get {
-                object obj = ResourceManager.GetObject("null_signal2_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_32x32_signal2_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap null_signal3_png {
+        public static System.Drawing.Bitmap png_32x32_signal3_1 {
             get {
-                object obj = ResourceManager.GetObject("null_signal3_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_32x32_signal3_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap null_signal4_png {
+        public static System.Drawing.Bitmap png_32x32_signal4_1 {
             get {
-                object obj = ResourceManager.GetObject("null_signal4_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_32x32_signal4_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_archive_png {
+        public static System.Drawing.Bitmap png_72x72_appicon {
             get {
-                object obj = ResourceManager.GetObject("picture_archive_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_appicon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_colorful_png {
+        public static System.Drawing.Bitmap png_72x72_archive_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_colorful_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_archive_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_configure_png {
+        public static System.Drawing.Bitmap png_72x72_chart_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_configure_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_chart_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_download_png {
+        public static System.Drawing.Bitmap png_72x72_colorful_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_download_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_colorful_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_drive_png {
+        public static System.Drawing.Bitmap png_72x72_configure_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_drive_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_configure_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_none_png {
+        public static System.Drawing.Bitmap png_72x72_download_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_none_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_download_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_save_png {
+        public static System.Drawing.Bitmap png_72x72_driver_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_save_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_driver_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_status_png {
+        public static System.Drawing.Bitmap png_72x72_log_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_status_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_log_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_text_png {
+        public static System.Drawing.Bitmap png_72x72_mac_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_text_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_mac_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_unload_png {
+        public static System.Drawing.Bitmap png_72x72_save_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_unload_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_save_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_upload_png {
+        public static System.Drawing.Bitmap png_72x72_server_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_upload_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_server_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,69 @@ namespace KcptunGUI {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap picture_user_png {
+        public static System.Drawing.Bitmap png_72x72_status_1 {
             get {
-                object obj = ResourceManager.GetObject("picture_user_png", resourceCulture);
+                object obj = ResourceManager.GetObject("png_72x72_status_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap png_72x72_status_2 {
+            get {
+                object obj = ResourceManager.GetObject("png_72x72_status_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap png_72x72_text_1 {
+            get {
+                object obj = ResourceManager.GetObject("png_72x72_text_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap png_72x72_unload_1 {
+            get {
+                object obj = ResourceManager.GetObject("png_72x72_unload_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap png_72x72_upload_1 {
+            get {
+                object obj = ResourceManager.GetObject("png_72x72_upload_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap png_72x72_user_1 {
+            get {
+                object obj = ResourceManager.GetObject("png_72x72_user_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap png_none {
+            get {
+                object obj = ResourceManager.GetObject("png_none", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

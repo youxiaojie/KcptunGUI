@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KcptunGUI.Properties {
+namespace KcptunGUI.Resource {
     using System;
     
     
@@ -22,24 +22,24 @@ namespace KcptunGUI.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Byte {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal Byte() {
         }
         
         /// <summary>
         ///   返回此类使用的缓存的 ResourceManager 实例。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KcptunGUI.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KcptunGUI.Resource.Byte", typeof(Byte).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +51,7 @@ namespace KcptunGUI.Properties {
         ///   重写当前线程的 CurrentUICulture 属性。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,20 +61,12 @@ namespace KcptunGUI.Properties {
         }
         
         /// <summary>
-        ///   查找类似 {&quot;LCID&quot;:2052,&quot;TabAutoHide&quot;:true,&quot;RememberWinLocation&quot;:true,&quot;FetchSystemStatus&quot;:true,&quot;WinLocation&quot;:[0,0],&quot;Nodes&quot;:[{&quot;hostname&quot;:&quot;too.simple.com&quot;,&quot;ip&quot;:&quot;1.2.4.8&quot;,&quot;description&quot;:&quot;图样主机 - 1&quot;,&quot;localport&quot;:1081,&quot;remoteport&quot;:8000,&quot;autoconnect&quot;:false}]} 的本地化字符串。
+        ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
-        internal static string String_AppConfigJsonDefault {
+        public static byte[] cur_normal {
             get {
-                return ResourceManager.GetString("String_AppConfigJsonDefault", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 {&quot;$schema&quot;:&quot;http://json-schema.org/draft-04/schema#&quot;,&quot;type&quot;:&quot;object&quot;,&quot;properties&quot;:{&quot;LCID&quot;:{&quot;type&quot;:&quot;integer&quot;},&quot;TabAutoHide&quot;:{&quot;type&quot;:&quot;boolean&quot;},&quot;RememberWinLocation&quot;:{&quot;type&quot;:&quot;boolean&quot;},&quot;FetchSystemStatus&quot;:{&quot;type&quot;:&quot;boolean&quot;},&quot;WinLocation&quot;:{&quot;type&quot;:&quot;array&quot;,&quot;items&quot;:{&quot;type&quot;:&quot;integer&quot;}},&quot;Nodes&quot;:{&quot;type&quot;:&quot;array&quot;,&quot;items&quot;:{&quot;type&quot;:&quot;object&quot;,&quot;properties&quot;:{&quot;hostname&quot;:{&quot;type&quot;:&quot;string&quot;},&quot;ip&quot;:{&quot;type&quot;:&quot;string&quot;},&quot;description&quot;:{&quot;type&quot;:&quot;string&quot;},&quot;localport&quot;:{&quot;type&quot;:&quot;integer&quot;},&quot;remoteport&quot;:{&quot;type&quot;:&quot;integer&quot;},&quot;autoconnect&quot;:{&quot;type&quot;: [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string String_AppConfigJsonSchema {
-            get {
-                return ResourceManager.GetString("String_AppConfigJsonSchema", resourceCulture);
+                object obj = ResourceManager.GetObject("cur_normal", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

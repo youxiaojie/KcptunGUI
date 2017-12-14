@@ -117,11 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="String_AppConfigJsonSchema" xml:space="preserve">
-    <value>{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"LCID":{"type":"integer"},"TabAutoHide":{"type":"boolean"},"RememberWinLocation":{"type":"boolean"},"FetchSystemStatus":{"type":"boolean"},"WinLocation":{"type":"array","items":{"type":"integer"}},"Nodes":{"type":"array","items":{"type":"object","properties":{"hostname":{"type":"string"},"ip":{"type":"string"},"description":{"type":"string"},"localport":{"type":"integer"},"remoteport":{"type":"integer"},"autoconnect":{"type":"boolean"}},"required":["hostname","ip","description","localport","remoteport","autoconnect"]}}},"required":["LCID","TabAutoHide","RememberWinLocation","FetchSystemStatus","WinLocation","Nodes"]}</value>
+  <data name="String_Language_CHS" xml:space="preserve">
+    <value>{"Language":"简体中文","LangTag":"zh_CN","LCID":2052,"Text":["KcptunGUI","客户端","服务端","首选项","状态","关于","显示当前运行状态","关于本程序","进行首选项设定","客户端模式","服务端模式","以下选项会即时生效并自动保存","是否自动关闭导航菜单","是否记住窗口位置","是否读取系统状态","区域ID,据此提供不同的内容","程序显示语言","处理器","处理器负载:","程序处理器占用:","内存","内存负载:","程序占用:","网络","系统上传速率:","系统下载速率:","KcptunGUI总出网速率:","KcptunGUI总入网速率:","Kcptun总出网速率:","Kcptun总入网速率:","有效流量比:","退出"]}</value>
+    <comment>内置简体中文</comment>
   </data>
-  <data name="String_AppConfigJsonDefault" xml:space="preserve">
-    <value>{"LCID":2052,"TabAutoHide":true,"RememberWinLocation":true,"FetchSystemStatus":true,"WinLocation":[0,0],"Nodes":[{"hostname":"too.simple.com","ip":"1.2.4.8","description":"图样主机 - 1","localport":1081,"remoteport":8000,"autoconnect":false}]}</value>
-    <comment>内置默认配置json</comment>
+  <data name="String_Language_ENG" xml:space="preserve">
+    <value>{"Language":"English","LangTag":"en_us","LCID":1033,"Text":["KcptunGUI","Client","Server","Config","Status","About","Display application status","About application","Configure settings","Client mode","Server mode","These settings will apply immediately","Whether or not auto close menu","Whether or not remember window location","Whether or not fetch application status","Location ID","Applocation display language","Processor","Processor load:","Application occupied:","Memory","System occupied:","Application occupied:","Network","System rate[upload]:","System rate[download]:","KcptunGUI rate[upload]:","KcptunGUI rate[download]:","Kcptun rate[upload]:","Kcptun rate[download]:","Availability flow ratio:","Exit"]}</value>
+    <comment>内置英文</comment>
   </data>
 </root>
